@@ -1,5 +1,5 @@
 # Android-UserLand-LAMP-Wordpress
-Scripts to set up a LAMP stack on Android with Ubuntu using the [UserLand](https://github.com/CypherpunkArmory/UserLAnd) no root required.
+Scripts to set up a LAMP stack plus WordPress on Android with Ubuntu using the [UserLand](https://github.com/CypherpunkArmory/UserLAnd) no root required.
 
 1. Start by installing Ubuntu on UserLand.
 
@@ -35,6 +35,8 @@ bash wp.sh
 *This script is run without the "sudo" command as WP-CLI doesn't encourage running commands with root permissions.*
 
 This script installs and configures WordPress with a usernamed "root" and password "password" it connects to the database and creates the table. 
+
+For convenience it also installs the Understrap and Understrap Child-Themes.
 
 The following commands will start the services.
 ```
