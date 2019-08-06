@@ -1,13 +1,13 @@
 # Android-UserLand-LAMP-Wordpress
 Scripts to set up a LAMP stack on Android with Ubuntu using the [UserLand](https://github.com/CypherpunkArmory/UserLAnd) no root required.
 
- Start by installing Ubuntu on UserLand.
+-Start by installing Ubuntu on UserLand.
 
- Place Scripts into Ubuntu using one of the methods from the [UserLand Wiki](https://github.com/CypherpunkArmory/UserLAnd/wiki/Importing-and-exporting-files-in-UserLAnd).
+-Place Scripts into Ubuntu using one of the methods from the [UserLand Wiki](https://github.com/CypherpunkArmory/UserLAnd/wiki/Importing-and-exporting-files-in-UserLAnd).
 
- Connect and login to Ubuntu.
+-Connect and login to Ubuntu.
 
- Now Run the scripts using the following commands.
+-Now Run the scripts using the following commands.
 
 ```
 sudo bash fixscripts.sh
