@@ -1,14 +1,21 @@
 # Android-UserLand-LAMP-Wordpress
-Scripts to set up a LAMP stack plus WordPress on Android with Ubuntu using the [UserLand](https://github.com/CypherpunkArmory/UserLAnd) no root required.
+Scripts to set up a LAMP stack plus WordPress on Android with Ubuntu using the [UserLand](https://github.com/CypherpunkArmory/UserLAnd) APP no root required.
 
-1. Start by installing Ubuntu on UserLand.
+1. Start by installing UserLand from Google Play.
 
-2. Place Scripts into Ubuntu using one of the methods from the [UserLand Wiki](https://github.com/CypherpunkArmory/UserLAnd/wiki/Importing-and-exporting-files-in-UserLAnd).
+2. Place Scripts into UserLand /storage using one of the methods from the [UserLand Wiki](https://github.com/CypherpunkArmory/UserLAnd/wiki/Importing-and-exporting-files-in-UserLAnd).
 
-3. Connect and login to Ubuntu.
+2. In UserLand select Ubuntu and run setup.
 
-4. Now Run the scripts using the following commands.
+   *Create a username and password.*
 
+4. Connect and login to the Ubuntu instance.
+
+5. Now Run the scripts using the following commands.
+```
+cd /storage
+```
+Changes directory to /storage where scripts are located.
 ```
 sudo bash fixscripts.sh
 ```
