@@ -16,8 +16,7 @@ wp core install --path=/var/www/html/wordpress/ --url=http://localhost:8080/word
 ###Install WP Theme Understrap
 wp theme install --path=/var/www/html/wordpress/ understrap
 ###Create and move to directory for Understrap-child.
-mkdir /var/www/html/wordpress/wp-content/themes/understrap-child/
-cd /var/www/html/wordpress/wp-content/themes/understrap-child/
+cd /var/www/html/wordpress/wp-content/themes/
 ###Download and Unzip Understrap-child.
 wget https://github.com/understrap/understrap-child/archive/master.zip -O temp.zip;
 unzip temp.zip;
