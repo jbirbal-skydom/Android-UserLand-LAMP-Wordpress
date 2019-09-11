@@ -13,7 +13,7 @@ Scripts to set up a LAMP stack plus WordPress on Android with Ubuntu using the [
 
 5. Now Run the scripts using the following commands.
 ```
-cd /storage
+cd /storage/internal/
 ```
 Changes directory to /storage where scripts are located.
 ```
